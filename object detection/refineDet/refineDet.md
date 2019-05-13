@@ -29,9 +29,7 @@
 - anchor refinement module ARM *****
 - objection detection module  ODM
 
-
-
-![Snipaste_2019-05-13_16-18-43](C:\Users\liu-z\Documents\refineDet\Snipaste_2019-05-13_16-18-43.png)
+![Snipaste_2019-05-13_16-18-43.png](https://github.com/ziming-liu/BLOG/blob/master/object%20detection/refineDet/src/Snipaste_2019-05-13_16-18-43.png?raw=true)
 
 整个模型的结构可以分解为三部分 
 
