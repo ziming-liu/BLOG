@@ -267,3 +267,162 @@ output = (
 
 其他代码细节，可以参考 https://github.com/luuuyi/RefineDet.PyTorch
 
+
+
+```reStructuredText
+References
+[1] S. Bell, C. L. Zitnick, K. Bala, and R. B. Girshick. Insideoutside net: Detecting objects in context with skip pooling
+and recurrent neural networks. In CVPR, pages 2874–2883,
+2016. 3, 6, 7, 8
+[2] N. Bodla, B. Singh, R. Chellappa, and L. S. Davis. Improving object detection with one line of code. In ICCV, 2017. 7,
+8
+[3] Z. Cai, Q. Fan, R. S. Feris, and N. Vasconcelos. A unified
+multi-scale deep convolutional neural network for fast object
+detection. In ECCV, pages 354–370, 2016. 1, 3
+[4] L. Chen, G. Papandreou, I. Kokkinos, K. Murphy, and A. L.
+Yuille. Semantic image segmentation with deep convolutional nets and fully connected crfs. In ICLR, 2015. 4
+[5] J. Dai, Y. Li, K. He, and J. Sun. R-FCN: object detection via
+region-based fully convolutional networks. In NIPS, pages
+379–387, 2016. 1, 3, 6, 7, 8
+[6] J. Dai, H. Qi, Y. Xiong, Y. Li, G. Zhang, H. Hu, and Y. Wei.
+Deformable convolutional networks. In ICCV, 2017. 7, 8
+[7] D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov. Scalable
+object detection using deep neural networks. In CVPR, pages
+2155–2162, 2014. 4
+[8] M. Everingham, L. J. V. Gool, C. K. I. Williams, J. M. Winn,
+and A. Zisserman. The pascal visual object classes (VOC)
+challenge. IJCV, 88(2):303–338, 2010. 1, 3
+[9] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn,
+and A. Zisserman. The Leaderboard of the PASCAL
+Visual Object Classes Challenge 2012 (VOC2012). http:
+//host.robots.ox.ac.uk:8080/leaderboard/
+displaylb.php?challengeid=11&compid=4.
+Online; accessed 1 October 2017. 8
+[10] M. Everingham, L. Van Gool, C. K. I. Williams,
+J. Winn, and A. Zisserman. The PASCAL Visual Object Classes Challenge 2007 (VOC2007) Results. http:
+//www.pascal-network.org/challenges/VOC/
+voc2007/workshop/index.html. Online; accessed
+1 October 2017. 2
+[11] M. Everingham, L. Van Gool, C. K. I. Williams,
+J. Winn, and A. Zisserman. The PASCAL Visual Object Classes Challenge 2012 (VOC2012) Results. http:
+//www.pascal-network.org/challenges/VOC/
+voc2012/workshop/index.html. Online; accessed
+1 October 2017. 2, 3
+[12] P. F. Felzenszwalb, R. B. Girshick, D. A. McAllester, and
+D. Ramanan. Object detection with discriminatively trained
+part-based models. TPAMI, 32(9):1627–1645, 2010. 3
+[13] C. Fu, W. Liu, A. Ranga, A. Tyagi, and A. C. Berg.
+DSSD : Deconvolutional single shot detector. CoRR,
+abs/1701.06659, 2017. 3, 5, 6, 7
+[14] S. Gidaris and N. Komodakis. Object detection via a multiregion and semantic segmentation-aware CNN model. In
+ICCV, pages 1134–1142, 2015. 3, 6
+[15] R. B. Girshick. Fast R-CNN. In ICCV, pages 1440–1448,
+2015. 1, 3, 5, 6, 7
+[16] R. B. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich
+feature hierarchies for accurate object detection and semantic
+segmentation. In CVPR, pages 580–587, 2014. 3
+[17] X. Glorot and Y. Bengio. Understanding the difficulty of
+training deep feedforward neural networks. In AISTATS,
+pages 249–256, 2010. 5
+[18] K. He, X. Zhang, S. Ren, and J. Sun. Spatial pyramid pooling
+in deep convolutional networks for visual recognition. In
+ECCV, pages 346–361, 2014. 3
+[19] K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning
+for image recognition. In CVPR, pages 770–778, 2016. 3, 4,
+7, 8
+[20] A. G. Howard. Some improvements on deep convolutional neural network based image classification. CoRR,
+abs/1312.5402, 2013. 4
+[21] J. Huang, V. Rathod, C. Sun, M. Zhu, A. Korattikara,
+A. Fathi, I. Fischer, Z. Wojna, Y. Song, S. Guadarrama, and
+K. Murphy. Speed/accuracy trade-offs for modern convolutional object detectors. In CVPR, 2017. 5, 7, 8
+[22] S. Ioffe and C. Szegedy. Batch normalization: Accelerating
+deep network training by reducing internal covariate shift. In
+ICML, pages 448–456, 2015. 4
+[23] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. B.
+Girshick, S. Guadarrama, and T. Darrell. Caffe: Convolutional architecture for fast feature embedding. In ACMMM,
+pages 675–678, 2014. 5
+[24] T. Kong, F. Sun, A. Yao, H. Liu, M. Lu, and Y. Chen. RON:
+reverse connection with objectness prior networks for object
+detection. In CVPR, 2017. 1, 3, 5, 6, 7, 8
+[25] T. Kong, A. Yao, Y. Chen, and F. Sun. Hypernet: Towards accurate region proposal generation and joint object detection.
+In CVPR, pages 845–853, 2016. 3, 6
+[26] H. Lee, S. Eum, and H. Kwon. ME R-CNN: multi-expert
+region-based CNN for object detection. In ICCV, 2017. 3
+[27] T. Lin, P. Dollar, R. B. Girshick, K. He, B. Hariharan, and ´
+S. J. Belongie. Feature pyramid networks for object detection. In CVPR, 2017. 1, 3, 7
+[28] T. Lin, P. Goyal, R. B. Girshick, K. He, and P. Dollar. Focal ´
+loss for dense object detection. In ICCV, 2017. 1, 3, 7, 8
+[29] T. Lin, M. Maire, S. J. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick. Microsoft COCO: com- ´
+mon objects in context. In ECCV, pages 740–755, 2014. 1,
+2, 3, 8
+[30] W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. E. Reed,
+C. Fu, and A. C. Berg. SSD: single shot multibox detector.
+In ECCV, pages 21–37, 2016. 1, 3, 4, 6, 7, 8
+[31] W. Liu, A. Rabinovich, and A. C. Berg. Parsenet: Looking
+wider to see better. In ICLR workshop, 2016. 4
+[32] P. H. O. Pinheiro, R. Collobert, and P. Dollar. Learning to ´
+segment object candidates. In NIPS, pages 1990–1998, 2015.
+3
+[33] P. O. Pinheiro, T. Lin, R. Collobert, and P. Dollar. Learning ´
+to refine object segments. In ECCV, pages 75–91, 2016. 3
+[34] J. Redmon, S. K. Divvala, R. B. Girshick, and A. Farhadi.
+You only look once: Unified, real-time object detection. In
+CVPR, pages 779–788, 2016. 3, 6
+[35] J. Redmon and A. Farhadi. YOLO9000: better, faster,
+stronger. CoRR, abs/1612.08242, 2016. 1, 3, 6, 7
+[36] S. Ren, K. He, R. B. Girshick, and J. Sun. Faster R-CNN:
+towards real-time object detection with region proposal networks. TPAMI, 39(6):1137–1149, 2017. 1, 3, 6, 7, 8
+[37] O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh,
+S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. S. Bernstein,
+A. C. Berg, and F. Li. Imagenet large scale visual recognition
+challenge. IJCV, 115(3):211–252, 2015. 3, 4, 5
+[38] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus,
+and Y. LeCun. Overfeat: Integrated recognition, localization
+and detection using convolutional networks. In ICLR, 2014.
+3
+[39] Z. Shen, Z. Liu, J. Li, Y. Jiang, Y. Chen, and X. Xue. DSOD:
+learning deeply supervised object detectors from scratch. In
+ICCV, 2017. 3, 6, 8
+[40] A. Shrivastava and A. Gupta. Contextual priming and feedback for faster R-CNN. In ECCV, pages 330–348, 2016. 3
+[41] A. Shrivastava, A. Gupta, and R. B. Girshick. Training
+region-based object detectors with online hard example mining. In CVPR, pages 761–769, 2016. 1, 3, 6, 7, 8
+[42] A. Shrivastava, R. Sukthankar, J. Malik, and A. Gupta. Beyond skip connections: Top-down modulation for object detection. CoRR, abs/1612.06851, 2016. 3, 7, 8
+[43] K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. CoRR,
+abs/1409.1556, 2014. 3, 4
+[44] C. Szegedy, S. Ioffe, V. Vanhoucke, and A. A. Alemi.
+Inception-v4, inception-resnet and the impact of residual
+connections on learning. In AAAI, pages 4278–4284, 2017.
+4, 7
+[45] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. E. Reed,
+D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich.
+Going deeper with convolutions. In CVPR, pages 1–9, 2015.
+6
+[46] J. R. R. Uijlings, K. E. A. van de Sande, T. Gevers, and
+A. W. M. Smeulders. Selective search for object recognition.
+IJCV, 104(2):154–171, 2013. 3
+[47] P. A. Viola and M. J. Jones. Rapid object detection using a
+boosted cascade of simple features. In CVPR, pages 511–
+518, 2001. 3
+[48] X. Wang, A. Shrivastava, and A. Gupta. A-fast-rcnn: Hard
+positive generation via adversary for object detection. In
+CVPR, 2017. 3
+[49] S. Xie, R. B. Girshick, P. Dollar, Z. Tu, and K. He. Aggre- ´
+gated residual transformations for deep neural networks. In
+CVPR, 2017. 4, 8
+[50] X. Zeng, W. Ouyang, B. Yang, J. Yan, and X. Wang. Gated
+bi-directional CNN for object detection. In ECCV, pages
+354–369, 2016. 3
+[51] S. Zhang, X. Zhu, Z. Lei, H. Shi, X. Wang, and S. Z. Li. Detecting face with densely connected face proposal network.
+In CCBR, pages 3–12, 2017. 4
+[52] S. Zhang, X. Zhu, Z. Lei, H. Shi, X. Wang, and S. Z. Li.
+Faceboxes: A CPU real-time face detector with high accuracy. In IJCB, 2017. 4
+[53] S. Zhang, X. Zhu, Z. Lei, H. Shi, X. Wang, and S. Z. Li.
+S
+3
+FD: Single shot scale-invariant face detector. In ICCV,
+2017. 1, 3, 4
+[54] Y. Zhu, C. Zhao, J. Wang, X. Zhao, Y. Wu, and H. Lu. Couplenet: Coupling global structure with local parts for object
+detection. In ICCV, 2017. 3, 5, 6, 7
+
+```
+
